@@ -14,6 +14,7 @@ FEATURE_FLAGS = {
 GUEST_TOKEN_JWT_EXP_SECONDS = 3600  # 1 hour
 
 OVERRIDE_HTTP_HEADERS = {'X-Frame-Options': 'ALLOWALL'}
+ENABLE_PROXY_FIX = True
 
 CORS_OPTIONS = {
   'supports_credentials': True,
