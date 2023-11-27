@@ -32,6 +32,7 @@ RUN pip install google
 RUN pip install google-api-core
 RUN pip install google.cloud.bigquery
 RUN pip install google.cloud.storage
+RUN pip install sqlalchemy-bigquery
 RUN pip install --upgrade google-api-python-client
 
 # Specify the startup script as the entry point
